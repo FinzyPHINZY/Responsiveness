@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    background: #2e354f;
+    font-family: 'lato', sans-serif;
+}
+
+.container {
+    /* border: 1px solid magenta; */
+    width: 80%;
+    margin: 44px auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    color: beige;
+    font-size: 2rem;
+}
+
+main {
+    background: #fff;
+}
+
+main h1 {
+    font-size: 3rem;
+}
+
+main p {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+.section1 .container {
+    display: flex;
+    gap: 2em;
+}
+
+.section1 .container div {
+    width: 33.3333%;
+}
+
+.section1 .container div h3 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.section1 .container div p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+footer {
+    /* background: black; */
+    color: white;
+}
+
+footer .container {
+    margin-bottom: 0;
+}
+
+.section2 {
+    background: black;
+    color: #fff;
+    padding: 1em 0 3em;
+}
+
+.section2 h3 {
+    font-size: 3rem;
+    margin-bottom: 1.5em;
+}
+
+.section2 p {
+    font-size: 1.5rem;
+    margin-bottom: 3em;
+}
+
+.section2 a {
+    background: #0d2fab;
+    text-decoration: none;
+    padding: .5em 1.5em;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 900;
+    margin: 0 2em;
+}
+
+.section2 a:hover {
+    background-color: dimgrey;
+    transition: .5s ease-in-out;
+    zoom: 1.1;
+}
+
+@media (max-width: 790px) {
+    .section1 .container {
+        display: block;
+    }
+
+    .section1 .container div {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .section2 a {
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+    }
+}
